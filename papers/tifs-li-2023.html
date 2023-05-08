@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Publication--ton-li-2022</title>
+<title>Publication--tifs-li-2023</title>
 <link href="../css/custom.css" rel='stylesheet' type='text/css' />
 <link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -11,8 +11,7 @@
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Express News Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- for bootstrap working -->
 	<script type="text/javascript" src="../js/bootstrap.js"></script>
@@ -101,37 +100,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="wrap">
 		<ol class="breadcrumb">
         <li>学术论文</li>
-        <li class="active">ton-li-2022</li>
+        <li class="active">tifs-li-2023</li>
       </ol>
 			<div class="col-md-10 ">
 				<div class="page__inner-wrap">
 
 <header>
-<h1 class="page__title" itemprop="headline">ProGraph: Robust Network Traffic Identification with Graph Propagation</h1>
+<h1 class="page__title" itemprop="headline">Prism: Real-Time Privacy Protection Against Temporal Network Traffic Analyzers</h1>
 
 
 <p> 
-<strong><i>IEEE/ACM Transactions on Networking. (ToN)</i></strong> 
-2022,
+<strong><i>IEEE Transactions on Information Forensics and Security. (TIFS)</i></strong> 
+2023.04.13,
 </p>
-<p>Wenhao Li, Xiao-Yu Zhang*, Huaifeng Bao, Haichao Shi, Qiang Wang.</p>
+<p>Wenhao Li, Xiao-Yu Zhang, Huaifeng Bao, Binbin Yang,  Zhaoxuan Li,  Haichao Shi, Qiang Wang.</p>
 </header>
 
 <div class="plink">
-              <a href="https://ieeexplore.ieee.org/document/9933044" >[PDF]</a>
-              <a href="https://ieeexplore.ieee.org/document/9933044" >[DOI]</a>
-              <a href="https://ieeexplore.ieee.org/document/9933044" >[Bib] </a>
+              <a href="https://ieeexplore.ieee.org/document/10103708" >[PDF]</a>
+              <a href="https://ieeexplore.ieee.org/document/10103708" >[DOI]</a>
+              <a href="https://ieeexplore.ieee.org/document/10103708" >[Bib] </a>
             
               </div>
             </div>
 
 			<div style="position: relative; ">
-				<img src="../papers_images/ton-li-2022.png" style="width: 1000px;">
+				<img src="../papers_images/tifs-li-2023.png" style="width: 1000px;">
 			</div>
+
 <section class="page__content">
 <h3 id="abstract">Abstract</h3>
 
-<p>Network traffic identification is critical for effective network management. Existing methods mostly focus on invariant network environments with stable attribute distributions. Unfortunately, however, they can hardly be adaptive to the variation of practical networks and suffer from significant performance degradation. This problem largely stems from the over-dependence of existing methods on the vulnerable side-channel features. To address this issue, in this paper we propose a graph-based approach, namely ProGraph, to ensure robust network traffic classification among various network environments. The core idea of ProGraph is to construct a correlation graph with session clusters aggregated from different networks, based on which graph propagation can be effectively implemented to predict labels of testing nodes in an iterative manner. ProGraph enhances the correlation between clusters of the same class to provide reliable paths for label dissemination from the labeled clusters to the testing ones. It is encouraging to see that the proposed ProGraph achieves an accuracy of 92.25% in networks with constant attributes, while remaining stable with the accuracy of 90.89% when deployed in different networks, which significantly outperforms the state-of-the-art approaches. Meanwhile, ProGraph can accurately identify the novel classes which do not exist in the training dataset, with an AUC of 95.11. Last but not least, a carefully constructed dataset, namely CrossNet2021, containing network traffic of 20 classes of applications from two distinct networking scenarios, is made publicly available to support further research.</p>
+<p>Traffic analysis is widely used in network monitoring. However, the attackers can sometimes infer sensitive information from the patterns of the encrypted network traffic, which poses a threat to network security. Most existing countermeasures are proposed to obfuscate traffic flows using adversarial examples. However, there are two challenges when adding perturbations to live network traffic. Firstly, the perturbations imposed on the feature space cannot be conveniently projected to original traffic flows in feature-space based methods. Secondly, it is laborious and impractical to apply symmetrical framework to encode/decode the adversarial traffic in traffic-space based approaches. To address the above issues, in this paper, we propose an asymmetric defending scheme, namely Prism, to protect the live connection privacy against attacks of temporal network traffic analyzers. Specifically, Prism first extracts standardized temporal features via Power-Law Division (PLD) algorithm, and then employs Time-stacked State Transition Model (TSTM) to obtain the fingerprint of each application. Finally, Prism defends against the analyzers with online traffic perturbation. Since the Prism is designed as a traffic-space based defender with asymmetric defending structure, the deployment is lightweight and efficient. Experimental results on two real-world datasets demonstrate the effectiveness and generalization of our adversarial perturbations. In particular, it is encouraging to see that our proposed defending scheme outperforms the advanced countermeasures, such as adversarial training and traffic filter.</p>
 
 </section>
 
